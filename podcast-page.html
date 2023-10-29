@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> My Podcast Page</title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0 80px;
+padding: 10px 100px;
+font-family: Arial, Helvetica, sans-serif;
+color: #444;
+    }
+    header{
+      margin: 0 0 30px 70px;
+    }
+    main{
+      width: 75%;
+    }
+    .podcast-video{
+      border-radius: 10px;
+      margin-left: 50px;
+      width: 60vw;
+      height: auto;
+    }
+    h1{
+margin-bottom: 10px;
+font-size: 28px;
+    }
+    .header-paragraph,
+span,
+.section-div {
+  color: #868686;
+
+}
+    .header-paragraph{
+      margin-top: 0;
+    }
+
+    section{
+      margin-top: 24px;
+      display: flex;
+      align-items: start;
+      gap: 24px;
+    }
+    h4{
+      margin: 0 auto;
+    }
+    section p{
+line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Faustina &lt &gt John Interview (User Interview)</h1>
+    <p class="header-paragraph">Created on Sep 17, 11:54 AM</p>
+  
+    <P><strong>Project:</strong> Staying connected in post-pandemic world</P><p><strong>Moderator: </strong>Speaker 1</p>
+    <p><strong>Participant: </strong>Speaker 2</p>
+  </header>
+  <main>
+    <video class="video" width="450" height="200" controls>
+      <source src="podcast.mp4" type="video/mp4">
+    </video>
+
+    <section>
+      <div class="section-div">00:05</div>
+      <div>
+
+        <h4>Speaker 1</h4>
+        <p>How do you feel about the number of video calls you and your team are conducting?</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-div">00:05</div>
+      <div>
+
+        <h4>Speaker 2</h4>
+        
+        <p>The number of video calls have grown exponentially since our team moved to a remote environment. I feel emotionally and physically drained by the number of calls</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
